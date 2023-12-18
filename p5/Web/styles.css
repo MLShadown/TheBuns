@@ -9,6 +9,9 @@ body{
     margin: 0 auto;
     padding:40px;
 }
+.top p{
+    font-size: 30px;
+}
 hr{
     height: 5px;
 }
@@ -21,7 +24,7 @@ h1{
     font-family: "Pacifico";
 }
 h2{
-    font-size:30px;
+    font-size:50px;
     text-align: center;
 }
 .header{
@@ -36,7 +39,7 @@ h2{
     text-align: left;
     width: 500px;
     height: 420px;
-    font-size: 30px;
+    font-size: 25px;
     border: 15px dashed orange;
     border-radius:10px;
     margin: 0 auto;
@@ -47,7 +50,7 @@ h2{
 }
 
 .box p{
-    font-size: 40px;
+    font-size: 35px;
     text-indent: 0em;
     text-align: center;
     padding:0px;
