@@ -77,4 +77,8 @@ img, video, audio, canvas, p{
 .credits{
     font-size: 0.5em;
     color: rgb(200,200,200);
+    width:1280px;
+    height:420px;
+    margin: 0 auto;
+    margin-top: 10px;
 }
