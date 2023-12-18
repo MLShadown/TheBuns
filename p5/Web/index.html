@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>p5.js example</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gasoek+One&family=Mulish:wght@600&family=Pacifico&display=swap" rel="stylesheet">
+  <script src="../p5.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/bmoren/p5.collide2D/p5.collide2d.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
+  <script src="Enemy.js"></script>
+  <script src="Bun.js"></script>
+  <script src="menu.js"></script>
+  <script src="sketch.js"></script>
+</head>
+
+<body>
+  
+  <div class="top">
+    <h1>The Buns!</h1>
+    <hr/>
+    <h2>A little game made with p5 by Ziping Chen</h2>
+    <p>"The Buns" is inspired by T-Rex Chrome Dino Game. In this game, you will take control of a small steamed bun trying to escape from a bustling bun shop. However, be cautious of hungry customers, as touching them will bring an end to your journey. </p>
+  </div>
+
+  <div class="header">
+    <div class="box">
+      <p><b>Winning Condition: </b></p>
+      <ol>
+        <li>Control the bun to reach the far right of the screen, avoiding collisions with customers, and escape from the bun shop.</li>
+        <li>Control the bun avoid collisions with customers and challenge the longest survival time.</li>
+      </ol>
+    </div>
+
+    <div class="box">
+      <p><b>Use the following keys:</b></p>
+      <ul>
+        <li>WASD keys are used to control the bun</li>
+        <li>Press "R" to reset the game.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="game">
+    <main></main>
+  </div>
+</body>
+
+</html>

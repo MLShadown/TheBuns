@@ -1,0 +1,80 @@
+body{
+    width: 1920px;    
+    padding: 5em;
+    margin:0 auto;
+    background-color:#fffed5;
+}
+.top{
+    width: 1280px;
+    margin: 0 auto;
+    padding:40px;
+}
+hr{
+    height: 5px;
+}
+h1{
+    margin: 0 auto;
+    width:600px;
+    font-size:120px;
+    text-align: center;
+    color: #ffa500;
+    font-family: "Pacifico";
+}
+h2{
+    font-size:30px;
+    text-align: center;
+}
+.header{
+    width:1280px;
+    height:420px;
+    margin: 0 auto;
+    margin-bottom: 160px;
+    text-align: center;
+}
+
+.box{
+    text-align: left;
+    width: 500px;
+    height: 420px;
+    font-size: 30px;
+    border: 15px dashed orange;
+    border-radius:10px;
+    margin: 0 auto;
+    display: inline-block;
+    overflow: hidden;
+    margin-right: 60px;
+    padding:20px;
+}
+
+.box p{
+    font-size: 40px;
+    text-indent: 0em;
+    text-align: center;
+    padding:0px;
+}
+.game{
+    width: 1280px;
+    height:720px;
+    border: 5px orange;
+    border-radius:10px;
+    border-style: double solid;
+    margin: 0 auto;
+    padding:5px;
+}
+
+
+p{
+    font-size:25px;
+    text-indent: 2em;
+    font-family: "Mulish";
+}
+/*The next rule centers and spaces the media*/
+img, video, audio, canvas, p{
+    display: block; 
+    margin: 0 auto;
+    padding-bottom: 2em
+}
+.credits{
+    font-size: 0.5em;
+    color: rgb(200,200,200);
+}
