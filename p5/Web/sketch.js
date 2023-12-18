@@ -12,7 +12,15 @@ let deathSound; // Death sound
 
 //Preload images, videos and audios
 function preload(){
-
+  eImg = loadImage('images/enemy.png');
+  bImg = loadImage('images/bun.png');
+  bgImg = loadImage('images/background.png');
+  bgVideo = createVideo('videos/background.mp4');
+  bgVideo.hide(); // Hide video elements
+  victorySound = loadSound('sound/win.mp3');
+  bgmSound = loadSound('sound/bgm.mp3');
+  jumpSound = loadSound('sound/jump.mp3');
+  deathSound = loadSound('sound/death.mp3');
 }
 
 //Canvas settings
