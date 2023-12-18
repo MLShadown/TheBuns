@@ -12,7 +12,7 @@ let deathSound; // Death sound
 
 //Preload images, videos and audios
 function preload(){
-  eImg = loadImage('images/Enemy.png');
+  eImg = loadImage('images/enemy.png');
   bImg = loadImage('images/bun.png');
   bgImg = loadImage('images/background.png');
   bgVideo = createVideo('videos/background.mp4');
